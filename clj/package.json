@@ -1,0 +1,13 @@
+{
+  "name": "clj",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.16.8"
+  },
+  "dependencies": {
+    "canvas-sketch": "^0.7.4",
+    "p5": "^1.4.0",
+    "three": "^0.135.0"
+  }
+}

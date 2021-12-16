@@ -1,0 +1,15 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"
+  "src/sketches"]
+
+ :dependencies
+ []
+
+ :builds
+ {:sketch
+  {:target :node-script
+   :main sketches.main/draw
+   :output-to "out/draw.js"}}}
